@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_dashboard.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_dashboard_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Other UI elements and views -->
+
+        <LinearLayout
+            android:id="@+id/parentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Dynamically created TextViews will be added here -->
+        </LinearLayout>
+    <GridView
+
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:verticalSpacing="8dp"
+        android:horizontalSpacing="8dp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:clickable="true"
+
+        />
+
+    <!-- Other UI elements and views -->
+
+</RelativeLayout>
+

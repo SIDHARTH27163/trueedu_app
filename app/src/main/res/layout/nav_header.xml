@@ -1,0 +1,8 @@
+<ImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_header_imageView"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:scaleType="centerCrop"
+    android:background="@drawable/nv"
+     />
